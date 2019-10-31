@@ -161,17 +161,10 @@ $$ where $\nu$ is the number of degrees of freedom and $\Gamma$ is the gamma fun
 		\item $\sigma_X^2 = \frac{\nu }{\nu -2} ~for~ \nu >2, ~\infty ~for~ 1 < \nu \le 2,$ otherwise undefined.
 		\end{itemize} 
 \end{enumerate}
-
-$f(x + y) = f(x) + f(y) + 3 (4xy - 1)$\\
-$f(1) = 0 \implies x + y = 1 \implies y = 1 - x$\\
-$0 = f(x) + f(1-x) + 3 (4x(1-x) - 1)$\\
-$0 = f(x) + f(1-x) + 12x - 12x^2 -3 \implies$\\
-$f(x) + f(y) = 12x^2 - 12x + 3 \implies$\\
-$f(x + y) = 12x^2 - 12x + 3 + 3(4xy - 1)$\\
-$f(x + y) = 12x^2 - 12x + 3 + 12xy - 3$\\
-$f(x + y) = 12x^2 - 12x + 12xy$\\
-$19 = 19 + 0 \implies f(19 + 0) = 12(19)^2 - 12(19) + 0$\\
-$f(19) = 4104 $
+dfdfd\\\\\\
+Intuitively, it is the long-run average value of repetitions of the same experiment it represents (i.e. what outcome to expect on long run)\\
+\textbf{For a Discrete R.V}: It is the average of R.V values based on their associated probabilities $E(X) = \Sigma (x_i \times p(x_i)) = (0\times0.15)+(1\times0.43) + (2\times0.32) + (3\times0.06) + (4\times0.04) = 1.41$ average calls per hour.\\
+That implies they need on average 2 representatives to answer phone calls at any hour. However, if they work in two shifts (i.e. 12 hours per shift), then you need 2 employees per shift = 4 employees for the whole day.
 \end{document}
 
 
